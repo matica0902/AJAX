@@ -1,0 +1,73 @@
+1.Ajax framework
+
+#Step 1 NEW XMLHttpRequest
+#Step 2 method |open()
+#Step 3 method |send()
+#Step 4 callback function |onreadystatechage 
+#Step 5 Server recieve request
+#Step 6 readyState check
+#Step 7 recieve data |responseText|responseXML 
+
+Step 1 NEW XMLHttpRequest
+#5 field of XMLHttpRequest
+readyState()
+status()
+status Text()
+responseText()
+responseXML()
+
+#6 mthod of XMLHttpRequest
+open()
+send()
+abort()
+getALLReponseHeaders()
+getResponseHeader()
+setRequsetHeader()
+
+#2 event of XMLHttpRequest
+
+onreadystatechage event
+onload event
+
+STEP 2-3.Ajax request
+
+#GET
+xhr.open("GET","xxx.jsp?username=Peter&age=35",true);
+xhr.send(null);
+
+#POST
+hhr.open("POST","xxx.jsp|URL",true);
+http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+xhr.send("username=Peter&age=35")
+
+<script>
+
+	var http = new XMLHttpRequest();
+  var url = "http://localhost:8081/YB102/Prohtml/session01.jsp";
+  http.open("POST", url, true);
+  http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      http.onreadystatechange = function() {
+    	    if(http.readyState == 4 && http.status == 200) {
+    	        alert("hi"+http.getAllResponseHeaders());
+    	      }
+    	}
+  http.send("null");
+  
+</script>
+
+Step 4 callback function |onreadystatechage 
+
+
+Step 5 Server recieve request//Step 6 readyState check
+
+
+STEP 7.Ajax response
+#responseTEXT
+
+#responseXML
+
+Event with Ajax
+1.Page Event
+2.form Event
+3.keyboard Event
+4.mouse Event
