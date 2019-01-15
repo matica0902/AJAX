@@ -33,6 +33,8 @@
    Server2 | Mysql版本 | 5.7.24 |MySQL 根據版本不同，資料存放限制也不同|如以有安裝則會出問題，詢問是否可將版本更至同一版本
    Server2 | Insight Port | 12221  |確認 Insight 對外Port是否開通|找客戶 IT詢問
    Server2 | 圖表平台 Port | 8080   |確認 圖表平台 對內Port是否開通|修改Nginx設定
+   
+   
 
 ## 第 2 章 Insight V2.0 安裝程序
 
