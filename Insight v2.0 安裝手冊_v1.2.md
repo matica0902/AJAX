@@ -35,6 +35,9 @@
    Server2 | 圖表平台 Port | 8080   |確認 圖表平台 對內Port是否開通|修改Nginx設定
    
    
+   
+   
+   
 
 ## 第 2 章 Insight V2.0 安裝程序
 
